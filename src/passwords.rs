@@ -1,0 +1,1 @@
+pub const HELLO_SMOKE: &str = "test1234";
