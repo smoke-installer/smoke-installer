@@ -1,39 +1,21 @@
-extern crate libl;
-use libl::io::input;
+extern crate orbtk;
+use orbtk::{Button, Click, Place, Point, Text, Rect, Window};
 
-use std::fs::{copy, rename, remove_file, File};
-use std::path::Path;
-use std::process::{exit};
-use libl::zip::unzip;
-use libl::fs::mv;
-use std::env::set_current_dir;
-
-use std::io::Write;
-
-mod help;
-mod ids;
-mod install;
-mod installed;
-mod passwords;
-mod setup;
 mod store;
 
 fn main() {
-    setup::setup();
-    loop {
-        print!("\n>>> ");
-        let mut main_input = input();
-        if main_input == "E" {
-            exit(0);
-        } else if main_input == "H" {
-            help::help_main();
-        } else if main_input == "I" {
-            installed::installed_main();
-        } else if main_input == "S" {
-            store::store_main();
-        } else {
-            println!("{} - Not an option", main_input);
-            println!("Type 'H' for help");
-        }
-    }
+    let mut window = Window::new(Rect::new(100, 100, 1100, 600),"Smoke Installer");
+
+    let x = 10;
+    let mut y = 0;
+
+    let store_btn = Button::new();
+    store_btn
+        .position(0, 0).text("Store")
+        .on_click(move |_store_btn: &Button, _point: Point| {
+            store::store_init();
+        });
+
+    window.add(&store_btn);
+    window.exec();
 }

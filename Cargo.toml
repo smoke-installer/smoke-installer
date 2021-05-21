@@ -4,13 +4,5 @@ version = "0.1.0-beta"
 authors = ["Nathan McMillan54 <nathanmcmillan54@gmail.com>"]
 edition = "2018"
 
-[workspace]
-members = [
-    "libl/",
-    "tests/",
-    "tools/",
-]
-
 [dependencies]
-libl = { path = "libl/" }
-tools = { path = "tools/" }
+orbtk = "0.2.31"

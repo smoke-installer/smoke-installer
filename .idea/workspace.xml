@@ -1,37 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeSettings">
-    <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
-    </configurations>
-  </component>
   <component name="CargoProjects">
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b29b975b-d00d-4f55-991b-6279ccde73c4" name="Default Changelist" comment="">
+    <list default="true" id="9b5646da-fff7-4467-9157-5402f68b04ef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.cargo/config.toml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/install/games.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/install/games.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etc/install.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/etc/installed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/etc/store.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/etc/write_installed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libl/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libl/src/constants.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libl/src/curl.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libl/src/fs.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libl/src/io.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libl/src/lib.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libl/src/zip.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/help.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ids.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/install/games.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/install/mod.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/installed.rs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/passwords.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setup.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/src/lib.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/install.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/src/lib.rs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ClangdSettings">
-    <option name="formatViaClangd" value="false" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="lc29uuz7" />
+    <option name="directoryName" value="r3wavgwj" />
   </component>
-  <component name="ProjectId" id="1sd41LUlzscD1dduIyE2oeJBKv7" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1srHkGalJcL5NpWDoK8Je62JFG1" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,21 +54,29 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="cf.first.check.clang-format" value="false" />
-    <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../githubProjects/novusk" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
@@ -62,35 +85,17 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b29b975b-d00d-4f55-991b-6279ccde73c4" name="Default Changelist" comment="" />
-      <created>1621188916838</created>
+      <changelist id="9b5646da-fff7-4467-9157-5402f68b04ef" name="Default Changelist" comment="" />
+      <created>1621623933748</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1621188916838</updated>
-      <workItem from="1621188919737" duration="2836000" />
-      <workItem from="1621191993478" duration="24000" />
-      <workItem from="1621197571713" duration="988000" />
-      <workItem from="1621206315521" duration="14000" />
-      <workItem from="1621256817486" duration="323000" />
-      <workItem from="1621257154560" duration="168000" />
-      <workItem from="1621257357321" duration="1032000" />
-      <workItem from="1621366891605" duration="29000" />
+      <updated>1621623933748</updated>
+      <workItem from="1621623938585" duration="3493000" />
+      <workItem from="1621628176704" duration="3741000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
