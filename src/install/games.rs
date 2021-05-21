@@ -1,6 +1,9 @@
 use tools::CURL;
 use std::process::Command;
 
+//#[cfg(target_arch = "x86_64")]
+//const ARCH: &str = "x86_64";
+
 #[cfg(target_arch = "x86_64")]
 const ARCH: &str = "x86_64";
 

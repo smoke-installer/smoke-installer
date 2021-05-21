@@ -1,7 +1,3 @@
 # Smoke Installer
 
-A game installer for small developers
-
-```commandline
-sudo sh setup.sh
-```
+The source code for [Smoke Installer](https://github.com/smoke-installer/smoke-installer-app/)

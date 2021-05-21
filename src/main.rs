@@ -6,7 +6,7 @@ use std::path::Path;
 use std::process::{exit};
 use libl::zip::unzip;
 use libl::fs::mv;
-use std::env::set_current_dir;edition = "2018"
+use std::env::set_current_dir;
 
 use std::io::Write;
 
