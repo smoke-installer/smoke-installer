@@ -4,5 +4,13 @@ version = "0.1.0-beta"
 authors = ["Nathan McMillan54 <nathanmcmillan54@gmail.com>"]
 edition = "2018"
 
+[workspace]
+members = [
+    "games/hello_smoke/"
+]
+
 [dependencies]
+# Dependencies
 orbtk = "0.2.31"
+# Games
+hello_smoke = { path = "games/hello_smoke/" }

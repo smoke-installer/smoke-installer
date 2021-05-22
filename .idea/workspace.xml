@@ -5,35 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b5646da-fff7-4467-9157-5402f68b04ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.cargo/config.toml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/install.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/installed.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/store.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/write_installed.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libl/Cargo.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libl/src/constants.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libl/src/curl.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libl/src/fs.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libl/src/io.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libl/src/lib.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libl/src/zip.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/setup.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/help.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ids.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/install/games.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/install/mod.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/installed.rs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/passwords.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setup.rs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Cargo.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/src/lib.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/Cargo.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/install.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/src/lib.rs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621623933748</updated>
       <workItem from="1621623938585" duration="3493000" />
-      <workItem from="1621628176704" duration="3741000" />
+      <workItem from="1621628176704" duration="9802000" />
     </task>
     <servers />
   </component>
