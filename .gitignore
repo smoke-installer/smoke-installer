@@ -1,4 +1,5 @@
-.idea/
+.idea/*.iml
+.idea/*.xml
 target/
 
 Cargo.lock
