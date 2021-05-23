@@ -1,3 +1,3 @@
 extern crate orbtk;
 
-pub mod button;
+pub mod store;

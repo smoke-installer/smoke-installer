@@ -1,6 +1,5 @@
 extern crate orbtk;
 use orbtk::{Button, Click, Color, Place, Point, Text, Rect, Window};
-use orbtk::theme::Theme;
 
 mod store;
 
@@ -11,7 +10,6 @@ fn main() {
     store_btn
         .position(0, 0).text("Store")
         .on_click(move |_store_btn: &Button, _point: Point| {
-            // window.close();
             store::store_init();
         });
 

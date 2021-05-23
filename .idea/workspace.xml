@@ -4,9 +4,12 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b5646da-fff7-4467-9157-5402f68b04ef" name="Default Changelist" comment="">
+    <list default="true" id="4d6ee515-dd83-4308-9c72-f2d49082e678" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/games/hello_smoke/src/store.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/hello_smoke/src/button.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/hello_smoke/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/games/hello_smoke/src/lib.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.rs" afterDir="false" />
     </list>
@@ -19,9 +22,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="r3wavgwj" />
+    <option name="directoryName" value="5h8djtnr" />
   </component>
-  <component name="ProjectId" id="1srHkGalJcL5NpWDoK8Je62JFG1" />
+  <component name="ProjectId" id="1swuxofac6DfCAKyNzK94ODixwc" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,15 +42,13 @@
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -55,22 +56,31 @@
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
-    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9b5646da-fff7-4467-9157-5402f68b04ef" name="Default Changelist" comment="" />
-      <created>1621623933748</created>
+      <changelist id="4d6ee515-dd83-4308-9c72-f2d49082e678" name="Default Changelist" comment="" />
+      <created>1621796222070</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1621623933748</updated>
-      <workItem from="1621623938585" duration="3493000" />
-      <workItem from="1621628176704" duration="9802000" />
+      <updated>1621796222070</updated>
+      <workItem from="1621796223594" duration="7251000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
