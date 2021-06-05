@@ -1,5 +1,7 @@
+# .idea/ never goes away
 .idea/*.iml
 .idea/*.xml
+.idea/*
 target/
 
 Cargo.lock
