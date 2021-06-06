@@ -15,7 +15,7 @@ def start_install(zipname, zippass, game):
     os.system(f'echo {password} | sudo -S sh build.sh')
     os.chdir(f"/home/{getpass.getuser()}/SmokeInstaller")
     os.system(f"echo {password} | sudo -S rm -rf {game}/")
-    os.system(f'echo {password} | sudo -S echo "{game}" > /etc/smoke_installer/installed.txt')
+    os.system(f'echo {password} | sudo -S bash -c \'echo "{game}" >> /etc/smoke_installer/installed.txt\'')
     sys.exit(0)
 
 if __name__ == '__main__':
