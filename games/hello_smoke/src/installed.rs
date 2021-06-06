@@ -1,6 +1,6 @@
-use std::process::Command;
+use orbtk::{Button, Click, Text, Point};
 use std::sync::Arc;
-use orbtk::{Button, Click, Point, Text};
+use std::process::Command;
 
 fn start() {
     Command::new("Hello_Smoke")

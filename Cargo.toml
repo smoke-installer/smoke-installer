@@ -12,5 +12,6 @@ members = [
 [dependencies]
 # Dependencies
 orbtk = "0.2.31"
+webbrowser = "0.5.5"
 # Games
 hello_smoke = { path = "games/hello_smoke/" }
