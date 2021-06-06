@@ -8,14 +8,15 @@ import tkinter
 
 def start_install(zipname, zippass, game):
     password = inputProjectBox.get("1.0", "end-1c")
+    os.system(f'echo {password} | sudo -S wget -P /home/{getpass.getuser()}/SmokeInstaller/ https://smoke-installer.github.io/{zipname} 2> /dev/null')
     os.chdir(f"/home/{getpass.getuser()}/SmokeInstaller")
-    os.system(f'curl https://smoke-installer.github.io/{zipname} > {game}.zip')
-    os.system(f'unzip -P {zippass} {zipname}')
+    os.system(f'sudo unzip -P {zippass} {zipname}')
     os.chdir(f"{game}/")
     os.system(f'echo {password} | sudo -S sh build.sh')
     os.chdir(f"/home/{getpass.getuser()}/SmokeInstaller")
-    os.remove(f"{game}/*")
+    os.system(f"echo {password} | sudo -S rm -rf {game}/")
     os.system(f'echo {password} | sudo -S echo "{game}" > /etc/smoke_installer/installed.txt')
+    sys.exit(0)
 
 if __name__ == '__main__':
     zipurl = sys.argv[1]

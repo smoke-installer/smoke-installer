@@ -8,9 +8,8 @@ pub fn store_init() {
     let hello_smoke_website = hello_smoke::store::website_button();
     let hello_smoke_install = hello_smoke::store::install_button();
     hello_smoke_install.on_click(move |_hello_smoke_install: &Button, _point: Point| {
-
+        hello_smoke::install::install();
     });
-
 
     window.add(&hello_smoke_text);
     window.add(&hello_smoke_website);
