@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=0.1.0
+Name=Smoke Installer
+Comment=A Linux game installer
+Exec=/bin/Smoke_Installer
+Terminal=False
+Type=Application
