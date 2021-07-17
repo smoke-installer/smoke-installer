@@ -8,14 +8,10 @@ import tkinter
 
 def start_install(zipname, zippass, game):
     password = inputProjectBox.get("1.0", "end-1c")
-    os.system(f'echo {password} | sudo -S wget -P /home/{getpass.getuser()}/SmokeInstaller/ https://smoke-installer.github.io/{zipname} 2> /dev/null')
-    os.chdir(f"/home/{getpass.getuser()}/SmokeInstaller")
-    os.system(f'sudo unzip -P {zippass} {zipname}')
-    os.chdir(f"{game}/")
-    os.system(f'echo {password} | sudo -S sh build.sh')
-    os.chdir(f"/home/{getpass.getuser()}/SmokeInstaller")
-    os.system(f"echo {password} | sudo -S rm -rf {game}/")
-    os.system(f'echo {password} | sudo -S rm -rf {zipname}')
+    os.system(f'echo {password} | sudo -S wget -P /home/{getpass.getuser()}/SmokeInstaller/ https://smoke-installer.github.io/{zipname} && cd /home/{getpass.getuser()}/SmokeInstaller/ && sudo -S unzip -P {zippass} {zipname} && cd {game}/ && sudo -S sh build.sh')
+    os.system('ls -la')
+    os.system(f"echo {password} | sudo -S rm -rf /home/{getpass.getuser()}/SmokeInstaller/{game}/")
+    os.system(f'echo {password} | sudo -S rm -rf /home/{getpass.getuser()}/SmokeInstaller/{zipname}')
     os.system(f'echo {password} | sudo -S bash -c \'echo "{game}" >> /etc/smoke_installer/installed.txt\'')
     sys.exit(0)
 

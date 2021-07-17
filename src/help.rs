@@ -1,4 +1,5 @@
 use orbtk::{Button, Click, Label, Place, Point, Rect, Text, Window};
+use std::process::exit;
 
 pub fn help_init() {
     let mut window = Window::new(Rect::new(100, 100, 1100, 600), "Smoke Installer - Help");
@@ -14,8 +15,16 @@ pub fn help_init() {
         webbrowser::open("https://smoke-installer.github.io/help.html");
     });
 
+    let exit_btn = Button::new();
+    exit_btn
+        .position( 1055, 0).text("Exit")
+        .on_click(move |_exit_btn: &Button, _point: Point| {
+            exit(0);
+        });
+
     window.add(&main_text);
     window.add(&sub_text);
     window.add(&website_btn);
+    window.add(&exit_btn);
     window.exec();
 }

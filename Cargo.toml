@@ -1,6 +1,6 @@
 [package]
 name = "Smoke_Installer"
-version = "0.1.0-beta"
+version = "0.2.0-beta"
 authors = ["Nathan McMillan54 <nathanmcmillan54@gmail.com>"]
 edition = "2018"
 

@@ -27,10 +27,10 @@ pub fn name() -> Arc<Label> {
 
 pub fn install() {
     Command::new("si-install")
-        .args(&["2021_6_6_10_0.zip", "test1234", "hello-smoke-installer"])
+        .args(&["2021_6_13_10_0.zip", "test1234", "hello-smoke-installer"])
         .spawn();
 }
 
 pub fn open_website() {
-    webbrowser::open("https://smoke-installer.github.io/games/hello-smoke.html");
+    webbrowser::open("https://smoke-installer.github.io/games/hello_smoke.html");
 }
